@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>حجة | من نحن؟ </title>
+    </head>
+    <body>
+<header class="main-header">
+<button id="theme-toggle">تغيير الثيم</button>
+        <div class="top-announcement-bar">
+            <p>أحصل على استشارة مجانية عند انضمامك للمرة الأولى! </p>
+        </div>
+        <div class="main-nav-bar">
+        <div class="header-logo-box"><img src="images/logo.jpeg" alt=""></div>
+            <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-item">الصفحة الرئيسية</a></li>
+                <li><a href="services.html" class="nav-item">الخدمات</a></li>
+                <li><a href="customer-dashboard.html" class="nav-item">لوحة العملاء</a></li>
+                <li><a href="Provider_Dashboard.html" class="nav-item current-page">لوحة الأعضاء</a></li>
+                <li class="currnt"><a href="about-us.html" class="nav-item">من نحن؟</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>        
+    <div class="breadcrumb-nav">
+            <a href="index.html">الصفحة الرئيسية</a> ◁  <span>من نحن؟</span>
+        </div>
+    <main class="container">
+                <h1 class="main-title">من نحن؟</h1>
+                <h2 class="sec-title">فريق حُجّة</h2>
+
+                <div class="scroll-container">
+                    <div class="scroll-card">
+                        <img src="images/iconM.png" alt="">
+                        <p><a href="fahad.html">فهدالعنزي</a></p>
+                    </div>
+                    <div class="scroll-card">
+                        <img src="images/iconM.png" alt="">
+                        <p><a href="khalid.html">خالد القحطاني</a></p>
+                    </div>
+                    <div class="scroll-card">
+                        <img src="images/iconF.png" alt="">
+                        <p><a href="latiffah.html">لطيفة التميمي</a></p>
+                    </div>
+                    <div class="scroll-card">
+                        <img src="images/iconF.png" alt="">
+                        <p><a href="maryam.html">مريم الحقيل</a></p>
+                    </div>
+                    <div class="scroll-card">
+                        <img src="images/iconF.png" alt="">
+                        <p><a href="tala.html">تالا الزهراني</a></p>
+                    </div>
+                </div>
+
+                <h1 class="main-title">انضم إلى فريق حُجّة</h1>
+                <div class="container">
+        <form id="joinForm" class="my-form" dir="rtl" action="about-us.html" method="POST" enctype="multipart/form-data" novalidate>
+    <div class="top-section">
+
+        <div class="fields inputs-flex-container">
+            <!-- اسم العضو -->
+            <div class="form-field field-name">
+                <label for="jt-name" class="req">اسم العضو: </label>
+                <input type="text" id="jt-name" name="name">
+                <small id="err-name" class="error-msg"></small>
+            </div>
+
+            <!-- تاريخ الميلاد -->
+            <div class="form-field field-date">
+                <label for="jt-dob" class="req">تاريخ الميلاد: </label>
+                <input type="date" id="jt-dob" name="dob">
+                <small id="err-dob" class="error-msg"></small>
+            </div>
+
+            <!-- البريد الإلكتروني -->
+            <div class="form-field full-width">
+                <label for="jt-email" class="req">البريد الإلكتروني: </label>
+                <input type="email" id="jt-email" name="email">
+                <small id="err-email" class="error-msg"></small>
+            </div>
+
+            <!-- الخبرات -->
+            <div class="form-field full-width">
+                <label for="jt-exp" class="req">الخبرات: </label>
+                <textarea id="jt-exp" name="experience" rows="3"></textarea>
+                <small id="err-exp" class="error-msg"></small>
+            </div>
+
+            <!-- المهارات -->
+            <div class="form-field full-width">
+                <label for="jt-skills" class="req">المهارات: </label>
+                <textarea id="jt-skills" name="skills" rows="3"></textarea>
+                <small id="err-skills" class="error-msg"></small>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- التعليم -->
+    <div class="form-field field-education full-width">
+        <label for="jt-edu" class="req">التعليم: </label>
+        <textarea id="jt-edu" name="education" rows="5"></textarea>
+        <small id="err-edu" class="error-msg"></small>
+    </div>
+
+    <!-- حقل الصورة -->
+    <div class="text-center submit-area">
+        <input type="file" id="jt-photo" name="photo" class="visually-hidden" accept="image/*">
+        <label for="jt-photo" class="upload-btn req">إضافة صورة</label>
+        <small id="err-photo" class="error-msg" style="display:block; margin-top:0.5rem;"></small>
+    </div>
+
+    <!-- زر الإرسال -->
+    <div class="text-center submit-area">
+        <button type="submit" class="btn-submit">إرسال</button>
+    </div>
+</form>
+
+                </div>
+        </main>
+<footer>
+    <div class="footer-content">
+      <p class="footer-slogan">
+          <span id="slogan-text-wrapper">العدالة تبدأ بحجتك... سمعنا إياها</span>
+      </p>
+
+      <div class="footer-details">
+        <div class="footer-logo-box">
+          <img id="fimg" src="images/logo.jpeg" alt="شعار حجة">
+        </div>
+
+        <div class="social-icons">
+          <span class="icon-placeholder"><a href=""><img id="linkedin" src="images/linkedin.png" alt="LinkedIn"></a></span>
+          <span class="icon-placeholder"><a href=""><img id="snap" src="images/snap.png" alt="Snapchat"></a></span>
+          <span class="icon-placeholder"><a href=""><img id="insta" src="images/insta.png" alt="Instagram"></a></span>
+          <span class="icon-placeholder"><a href=""><img id="x" src="images/X.png" alt="X"></a></span>
+        </div>
+
+        <div class="contact-info">
+          <p class="fw-bold">تواصل معنا</p>
+          <p><a href="mailto:info@hujjah.com">info@hujjah.com</a></p>
+          <p>+966551100054</p>
+        </div>
+
+       <div class="quick-links">
+          <p class="fw-bold">روابط سريعة</p>
+          <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="services.html">الخدمات</a></li>
+            <li><a href="about-us.html">من نحن؟</a></li>
+            <li><a href="faq.html">الأسئلة الشائعة</a></li>
+            <li><a href="images/sitemap.png">خريطة الموقع</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">جميع الحقوق محفوظة لحُجة © 2025</p>
+    </div>
+  </footer>
+  <script src="theme.js"></script>
+  <script src="about.js"></script>
+    </body>
+</html>
