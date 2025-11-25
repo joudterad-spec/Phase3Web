@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>حجة | لوحة الأعضاء</title>
     <link rel="stylesheet" href="style.css">
+    <script src="provider_dashboard.js" defer></script>
 </head>
 <body>
 <header class="main-header">
-<button id="theme-toggle">تغيير الثيم</button>
         <div class="top-announcement-bar">
             <p>أحصل على استشارة مجانية عند انضمامك للمرة الأولى! </p>
         </div>
@@ -48,26 +48,8 @@
         </div>
 
         <h2 class="main-title">الخدمات الحالية</h2>
-        <div class="cards-container">
-                    <div class="card">
-                        <img src="images/represent.png" alt=" صورة للتعبير عن التمثيل القانوني والقضائي ">
-                        <p>التمثيل القانوني والقضائي</p>
-                        <p> التمثيل القانوني والقضائي مع خبراء </p>
-                        <div class="price"><p>5000ر.س</p></div>
-                    </div>
-                    <div class="card">
-                        <img src="images/contract.png" alt=" صورة للتعبير عن خدمات العقود  ">
-                        <p>خدمات العقود</p>
-                        <p>إعداد وصياغة ومراجعة العقود وفق احتياجات العملاء.</p>
-                        <div class="price"><p>700ر.س</p></div>
-                    </div>
-                    <div class="card">
-                        <img src="images/consolting.png" alt=" صورة للتعبير عن الاستشارات القانونية ">
-                        <p>الاستشارات القانونية</p>
-                        <p>جلسات استشارية متخصصة وسريعة لتغطية استفساراتك.</p>
-                        <div class="price"><p>300ر.س</p></div>
-                    </div>
-                </div>
+        <div class="cards-container" id="providerServicesList">
+        </div>
     </main>
 <footer>
     <div class="footer-content">
@@ -107,6 +89,5 @@
       <p class="copyright">جميع الحقوق محفوظة لحُجة © 2025</p>
     </div>
   </footer>
-  <script src="theme.js"></script>
 </body>
 </html>
