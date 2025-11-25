@@ -672,7 +672,7 @@ td img{
     text-align: center;
 }
 
-.btn-submit {
+.btn-submit, .btn-del {
     text-align: center;
     width: 80px;
     padding: 12px 20px;
@@ -684,6 +684,12 @@ td img{
     font-size: 15px;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+
+.btn-del {
+    display: block;
+    margin: 25px auto;
+    text-align: center;
 }
 
 
@@ -1158,11 +1164,11 @@ h1, h2, h3, p, a, span {
 }
 
  
-.btn a, .btn-submit, .card-button, .upload-btn {
+.btn a, .btn-submit, .btn-del, .card-button, .upload-btn {
   background-color: var(--primary);
 }
 
-.btn a:hover, .btn-submit:hover, .upload-btn:hover {
+.btn a:hover, .btn-submit:hover, .btn-del:hover, .upload-btn:hover {
   background-color: var(--primary-light);
 }
 
@@ -1259,12 +1265,15 @@ body:not(.dark-theme) footer a {
 
  
 .dark-theme .btn-submit,
+.dark-theme .btn-del,
 .dark-theme .upload-btn,
 .dark-theme .card-button,
 .dark-theme .btn a {
     background-color: #1f7e5c !important;
     color: #ffffff !important;
 }
+
+
 
  
 .dark-theme input:focus,

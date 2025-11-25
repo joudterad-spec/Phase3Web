@@ -40,61 +40,61 @@
                         <th>اسم العضو</th>
                         <th>تاريخ البدء</th>
                         <th>الصورة الشخصية</th>
-                        <th>حذف العضو</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" name="employee" value="" checked></td>
-                        <td>فهد العنزي</td>
-                        <td>2/ 9/ 2025</td>
+                        <td><input type="checkbox" name="employee" value="" ></td>
+                        <td class="member-name">فهد العنزي</td>
+                        <td class="start-date">2/ 9/ 2025</td>
                         <td class="profile_img"><img src="images/iconM.png" alt=""></td>
-                        <td><button class="btn-submit">حذف</button></td>
+                        
                     </tr>
                     <tr>
-					    <td><input type="checkbox" name="employee" value="" checked></td>
-                        <td>مريم الحقيل</td>
-                        <td>11/ 8/ 2025</td>
+					    <td><input type="checkbox" name="employee" value="" ></td>
+                        <td class="member-name">مريم الحقيل</td>
+                        <td class="start-date">11/ 8/ 2025</td>
                         <td class="profile_img"><img src="images/iconF.png" alt=""></td>
-						<td><button class="btn-submit">حذف</button></td>
+						
                     </tr>
                     <tr>
-                     	<td><input type="checkbox" name="employee" value="" checked></td>
-                        <td>تالا الزهراني</td>
-                        <td>14/ 7/ 2025</td>
+                     	<td><input type="checkbox" name="employee" value="" ></td>
+                        <td class="member-name">تالا الزهراني</td>
+                        <td class="start-date">14/ 7/ 2025</td>
                         <td class="profile_img"><img src="images/iconF.png" alt=""></td>
-                        <td><button class="btn-submit">حذف</button></td>
+                        
                     </tr>
                     <tr>
-						<td><input type="checkbox" name="employee" value="" checked></td>
-                        <td>خالد القحطاني</td>
-                        <td>9/ 4/ 2025</td>
+						<td><input type="checkbox" name="employee" value="" ></td>
+                        <td class="member-name">خالد القحطاني</td>
+                        <td class="start-date">9/ 4/ 2025</td>
                         <td class="profile_img"><img src="images/iconM.png" alt=""></td>
-                        <td><button class="btn-submit">حذف</button></td>
+                        
                     </tr>
                     <tr>
-						<td><input type="checkbox" name="employee" value="" checked></td>
-                        <td>لطيفة التميمي</td>
-                        <td>29/ 11/ 2025</td>
+						<td><input type="checkbox" name="employee" value="" ></td>
+                        <td class="member-name">لطيفة التميمي</td>
+                        <td class="start-date">29/ 11/ 2025</td>
                         <td class="profile_img"><img src="images/iconF.png" alt=""></td>    
-						<td><button class="btn-submit">حذف</button></td>
+						
                     </tr>
                     </tbody>
             </table>
+            <button class="btn-del">حذف</button>
         </div>
 
         <h2 class="main-title">إضافة عضو</h2>
 
         <div class="container">
-                    <form class="my-form" dir="rtl" action="Manage_Staff_Members.html" method="POST">
+                    <form class="my-form" dir="rtl" action="" method="">
                         <div class="top-section">
 
                             <div class="fields inputs-flex-container">
-                                <div class="form-field field-name"><label class="req">اسم العضو: </label><input type="text" required></div>
-                                <div class="form-field field-date"><label class="req">تاريخ الميلاد: </label><input type="date" required></div>
-                                <div class="form-field full-width"><label class="req">البريد الإلكتروني: </label><input type="email" required></div>
-                                <div class="form-field full-width"><label class="req">الخبرات: </label><textarea rows="3" required></textarea></div>
-                                <div class="form-field full-width"><label class="req">المهارات: </label><textarea rows="3" required></textarea></div>
+                                <div class="form-field field-name"><label class="req">اسم العضو: </label><input type="text" ></div>
+                                <div class="form-field field-date"><label class="req">تاريخ الميلاد: </label><input type="date" ></div>
+                                <div class="form-field full-width"><label class="req">البريد الإلكتروني: </label><input type="email" ></div>
+                                <div class="form-field full-width exp"><label class="req">الخبرات: </label><textarea rows="3" ></textarea></div>
+                                <div class="form-field full-width skills"><label class="req">المهارات: </label><textarea rows="3" ></textarea></div>
                             </div>
 
                             
@@ -102,11 +102,11 @@
                         
                         <div class="form-field field-education full-width">
                             <label class="req">التعليم: </label>
-                            <textarea rows="5" required></textarea>
+                            <textarea rows="5" ></textarea>
                         </div>
                         
                         <div class="text-center submit-area">
-                            <input type="file" required id="pic" class="visually-hidden">
+                            <input type="file"  id="pic" class="visually-hidden">
                             <label for="pic" class="upload-btn req">إضافة صورة</label>
                         </div>
 
@@ -140,7 +140,7 @@
           <p>+966551100054</p>
         </div>
 
-       <div class="quick-links">
+        <div class="quick-links">
           <p class="fw-bold">روابط سريعة</p>
           <ul>
             <li><a href="index.html">الصفحة الرئيسية</a></li>
@@ -155,4 +155,6 @@
     </div>
   </footer>
   <script src="theme.js"></script>
+  <script src="manage.js"></script>
 </body>
+</html>
