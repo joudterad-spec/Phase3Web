@@ -34,7 +34,7 @@
   <main>
     <h1 class="main-title">طلب خدمة جديدة</h1>
     <div class="container">
-    <form class="my-form" dir="rtl" action="request-service.html" method="post">
+    <form class="my-form" dir="rtl" action="request-service.html" method="post" novalidate>
       <div class="sel">
         <p class="req">اختر خدمة: </p>
           <select class="choose" name="service-type" required>
@@ -54,6 +54,9 @@
           </div>
     </form>
     </div>
+	  
+	<div id="requests-container" class="requests-container"></div> 
+		  
   </main>
 
   
@@ -96,5 +99,7 @@
     </div>
   </footer>
   <script src="theme.js"></script>
+	<script src="request.js"></script>
 </body>
+
 </html>
