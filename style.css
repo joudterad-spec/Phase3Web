@@ -1301,3 +1301,67 @@ body:not(.dark-theme) footer a {
 .dark-theme #clock {
   color: #e5fdf3 !important;
 }
+
+/* صندوق الطلبات */
+.requests-container {
+    width: 65%;
+    margin: 30px auto;
+}
+
+/* البطاقة */
+.request-card {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 18px;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+    line-height: 1.9;
+    font-size: 17px;
+    color: #032615;
+    transition: 0.25s;
+}
+
+/* تأثير بسيط */
+.request-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+}
+
+.request-card h3 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #06402B;
+}
+
+.separator {
+    height: 1px;
+    background: #dcdcdc;
+    margin: 15px 0;
+} 
+
+.error {
+    border: 2px solid #b40a0a !important;
+    background: #fff1f1;
+}
+
+.error-msg {
+    color: #b40a0a;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* اهتزاز */
+.shake {
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
