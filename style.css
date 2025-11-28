@@ -1346,11 +1346,6 @@ body:not(.dark-theme) footer a {
     background: #fff1f1;
 }
 
-.error-msg {
-    color: #b40a0a;
-    font-size: 13px;
-    margin-top: 4px;
-}
 
 /* اهتزاز */
 .shake {
@@ -1364,4 +1359,5 @@ body:not(.dark-theme) footer a {
     75% { transform: translateX(-4px); }
     100% { transform: translateX(0); }
 }
+
 
