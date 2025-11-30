@@ -1360,4 +1360,17 @@ body:not(.dark-theme) footer a {
     100% { transform: translateX(0); }
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* الصورة فوق – النص تحت */
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+}
+
 
